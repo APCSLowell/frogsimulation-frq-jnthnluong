@@ -22,7 +22,7 @@ public class FrogSimulation
 			currentDistance = currentDistance + hopDistance();
 			hops++;
 		}
-	return hopDistance >= goalDistance;
+	return hopDistance() >= goalDistance;
 	}
 	
 	public double runSimulations(int num)
